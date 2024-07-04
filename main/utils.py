@@ -1,7 +1,7 @@
 
 
 from asyncio.log import logger
-from clickchat import ClickUz
+from clickup import ClickUz
 from .models import OrderPayment
 
 

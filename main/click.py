@@ -1,6 +1,6 @@
 from asyncio.log import logger
-from clickchat.views import ClickUzMerchantAPIView
-from clickchat import ClickUz
+from clickup.views import ClickUzMerchantAPIView
+from clickup import ClickUz
 from .models import OrderPayment
 
 

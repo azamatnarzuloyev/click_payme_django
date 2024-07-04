@@ -1,3 +1,10 @@
+.PHONY: venv
+venv:
+    virtualenv venv
+.PHONY: active
+active:
+    source venv/bin/activate
+
 .PHONY: install
 install:
 	pip install -r requeirements.txt
@@ -18,5 +25,3 @@ migrate:
 superuser:
 	python manage.py create_payment_user 
 
-
-run: install makemigration migrate 

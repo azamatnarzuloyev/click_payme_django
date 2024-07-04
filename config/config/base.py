@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'payments',
     "payme",
-    'clickchat',
+    'clickup',
     'main',
     
    
