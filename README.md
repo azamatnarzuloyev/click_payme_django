@@ -1,5 +1,5 @@
 # click_payme_django
-# Click bilan Payme django bilan ulash 
+# Click  Payme   Django  
 # Serverni ishga tushuring 
 ## make run 
 ## make run-server 
